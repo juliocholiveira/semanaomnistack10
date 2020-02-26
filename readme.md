@@ -79,7 +79,7 @@ yarn add axios
 ### Instalar o Expo (https://docs.expo.io/versions/latest/)
 yarn global add expo-cli
 
-### Adicional o Yarn Global ao PATH (https://classic.yarnpkg.com/en/docs/cli/global/)
+### Adicionar o Yarn Global ao PATH (https://classic.yarnpkg.com/en/docs/cli/global/)
 export PATH="$(yarn global bin):$PATH"
 
 ### Instalar o React-Navigation (https://reactnavigation.org/docs/en/getting-started.html#installation)
