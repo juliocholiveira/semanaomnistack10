@@ -1,42 +1,43 @@
-### PREPARANDO O AMBIENTE 
+## PREPARANDO O AMBIENTE 
 
-# Instalar o HomeBrew
+### Instalar o HomeBrew
 https://brew.sh/
 
-# Instalação do NodeJS 12.14.1 LTS
+### Instalação do NodeJS 12.14.1 LTS
 brew install node@12
 
-# Instalação do Yarn
+### Instalação do Yarn
 https://yarnpkg.com
 
 brew install yarn --ignore-dependencies ou brew upgrade yarn
 
-### PREPARANDO AS FERRAMENTAS DE DEV
+## PREPARANDO AS FERRAMENTAS DE DEV
 
-# Instalar o VSCode
-# Instalar a extenção Dacula Official
-# Instalar a extenção Material Icon Theme
-# Instalar os snipets da RocketSeat
-# Link para vídeo de configuração de vscode https://www.youtube.com/watch?v=c7P03kkrEG8
-# Habilitar "Install Code Command in Path" com Shift+Command+P
+- Instalar o VSCode
+- Instalar a extenção Dacula Official
+- Instalar a extenção Material Icon Theme
+- Instalar os snipets da RocketSeat
+- Link para vídeo de configuração de vscode [RocketSeat](https://www.youtube.com/watch?v=c7P03kkrEG8)
+- Habilitar "Install Code Command in Path" com Shift+Command+P
 
-# No chrome, instalar a extensão JSON Viewer
-# No chrome, instalar a extenção React Developer Tools
-# Baixar e instalar o https://insomnia.rest/
+ No chrome, instalar a extensão JSON Viewer
+ No chrome, instalar a extenção React Developer Tools
+ Baixar e instalar o https://insomnia.rest/
 
-# Baixar e instalar o MongoDB Compass Community https://www.mongodb.com/download-center/compass
+ Baixar e instalar o MongoDB Compass Community https://www.mongodb.com/download-center/compass
 
-### CRIANDO O PROJETO BACKEND
+## CRIANDO O PROJETO BACKEND
 
-# Criar pasta com o nome SemanaOmniStack10
-# Criar subpasta Backend
-# Dentro da pasta Backend criar projeto com yarn
+- Criar pasta com o nome SemanaOmniStack10
+- Criar subpasta Backend
+
+### Dentro da pasta Backend criar projeto com yarn
 yarn init -y
 
-# Instalar o Express
+### Instalar o Express
 yarn add express
 
-# Instalar o NodeMon (biblioteca que atualiza o servidor automaticamente depois de alguma alteração)
+### Instalar o NodeMon (biblioteca que atualiza o servidor automaticamente depois de alguma alteração)
 yarn add nodemon -D
 
 #   Para executar o index com o NodeMon
@@ -103,12 +104,3 @@ yarn add axios
 
 # Instalar o Socket.io-client
 yarn add socket.io-client
-
-TODO: SUBMETER CÓDIGO PARA O GITHUB
-TODO: SUBMETER APP PARA HEROKU
-TODO: VER QUAL SERVER É BOM PARA HOSPEDAR PÁGINAS REACT (GITHUB PAGES)
-TODO: SUBMETER PARA LOJAS
-TODO: ESTUDAR O OTA (OVER THE AIR UPDATE)
-TODO: MOVER INPUT DE ACORDO COM A EXIBIÇÃO DO TECLADO (FALTA 8 MIN DO VIDEO)
-TODO: BOTÃO PARA CENTRALIZAR
-TODO: UTILIZAR ARQUIVOS .ENV PARA CONFIGURAR A URL DA APLICAÇÃO MOBILE
