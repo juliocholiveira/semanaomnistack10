@@ -74,7 +74,7 @@ yarn create react-app web
 ### Instalar Axios
 yarn add axios 
 
-# CRIANDO O PROJETO WEB
+# CRIANDO O PROJETO MOBILE
 
 ### Instalar o Expo (https://docs.expo.io/versions/latest/)
 yarn global add expo-cli
