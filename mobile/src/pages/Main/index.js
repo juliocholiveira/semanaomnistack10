@@ -56,7 +56,7 @@ export default function Main({ navigation }) {
 
   async function loadDevs(){
     const { latitude, longitude } = currentRegion;
-
+    
     const response = await api.get('/search', {
       params: {
         latitude,
@@ -64,8 +64,6 @@ export default function Main({ navigation }) {
         techs
       }
     });
-
-    //console.log(response.data);
 
     setDevs(response.data);
 

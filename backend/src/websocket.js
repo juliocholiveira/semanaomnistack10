@@ -42,11 +42,7 @@ exports.findConnections = (coordinates, techs) => {
     })
 }
 
-exports.sendMessage = (to, message, data) => {
-    console.log('passou aqui 2...');
-    console.log(to);
-    
-    
+exports.sendMessage = (to, message, data) => {      
     to.forEach(connection => {
         io.to(connection.id).emit(message, data);
     });

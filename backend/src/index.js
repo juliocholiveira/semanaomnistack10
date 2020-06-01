@@ -5,13 +5,15 @@ const cors = require('cors');
 const routes = require('./routes');
 const { setupWebsocket } = require('./websocket');
 
+const config = require('./config');
+
 const app = express();
 const server = http.Server(app);
 
 setupWebsocket(server);
 
 // Conecta a base de dados do mongodb atlas
-mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-cbwbl.mongodb.net/week10?retryWrites=true&w=majority',{
+mongoose.connect(config.urlMongoDB,{
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
@@ -25,4 +27,4 @@ app.use(express.json());
 // Configura as routes
 app.use(routes);
 
-server.listen(3333);
+server.listen(config.port);

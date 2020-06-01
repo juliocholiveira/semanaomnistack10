@@ -66,6 +66,9 @@ yarn add cors
 ### Instalar o Socket.io
 yarn add socket.io
 
+### Instalar o dotenv
+yarn add dotenv
+
 # CRIANDO O PROJETO WEB
 
 ###   Criar o projeto com yarn
@@ -103,3 +106,6 @@ yarn add axios
 
 ### Instalar o Socket.io-client
 yarn add socket.io-client
+
+### Instalar react-native-dotenv
+yarn add react-native-dotenv
